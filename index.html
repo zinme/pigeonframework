@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Pigeon Framework</title>
+		<link rel="shortcut icon" href="img/favicon.png">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+    	<link rel="stylesheet" href="css/style.css">
+    	<!-- google fonts -->
+    	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	</head>
+
+	<body>
+	<header class="top-header">
+      <div class="container">
+      <a class="header-logo" href="#">Pigeon Framework</a>
+        <nav class="header-menu">
+          <ul class="header-menu__list">
+            <li class="header-menu__item"><a class="header-menu__link active" href="index.html">TOP</a></li>
+            <li class="header-menu__item"><a class="header-menu__link" href="function.html">機能紹介</a></li>
+            <li class="header-menu__item"><a class="header-menu__link" href="project.html">事例</a></li>
+            <li class="header-menu__item"><a class="header-menu__link" href="plan.html">プラン</a></li>
+            <li class="header-menu__item"><a class="header-menu__link" href="support.html">サポート</a></li>
+          </ul>
+        </nav>
+        <div class="header-hamburger"><a class="hamburger-menu hamburger-menu--normal" id="hamburger-btn">
+        <span></span><span></span><span></span></a></div>
+      </div>
+    </header>
+    
+    <div class="nav-dropdown-menu" id="dropdown-menu">
+      <nav>
+        <ul>
+        	<li class="dropdown-menu__item"><a class="dropdown-menu__link active" href="index.html">TOP</a></li>
+                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="function.html">機能紹介</a></li>
+                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="project.html">事例</a></li>
+                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="plan.html">プラン</a></li>
+                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="support.html">サポート</a></li>
+        </ul>
+        <ul class="menu-list">
+			<li><a href="faq.html">FAQ</a></li>
+            <li><a href="news.html">アップデート＆お知らせ</a></li>
+            <li><a href="terms.html">利用規約</a></li>
+            <li><a href="privacy.html">プライバシーポリシー</a></li>
+		</ul>
+      </nav>
+    </div>
+    <div class="dropdown-overlay" id="dropdown-overlay"></div>
+    <!-- end header -->
+    
+	<div class="content">
+		<div class="banner">
+	    	<div class="row">
+	    		<div class="col-md-4 col-sm-5 col-xs-12">
+	    			<div class="banner-title">
+				    	<h1>リッチな管理画面を <br> データベースから高速に、<br> スマートに作成。</h1>
+				    	<div class="btn_link">
+				    		<a href="#"><img src="img/label.png" class="img-responsive"></a>
+				    	</div>
+				    	<p>CMS(管理画面)をデータベースを読み込んで<br> 一発作成出来るシステム、それがPigeonです。</p>
+			    	</div>
+	    		</div>
+	    		<div class="col-md-8 col-sm-7 col-xs-12">
+	    			<div class="banner-bg">
+				    	<div class="image">
+				    		<img src="img/illust.png" class="img-responsive">
+				    	</div>
+			    	</div>
+	    		</div>
+		    </div>
+		    <div class="btn-box">
+		    	<a href="#" class="btn-default-bs1" role="button">無料で試す</a>
+		    	<a href="#" class="btn-default-bs3" role="button">Live Demo</a>
+		    </div>
+	    </div> 
+	    <!-- end banner -->
+	    <section class="inner-wrapper m-b-150 m-b-0">
+	    	<div class="container">
+	    		<div class="row">
+	    			<div class="col-md-6 col-sm-6 col-xs-12">
+	    				<h2>こんな状況ありませんか？</h2>
+	    				<ul class="check-list">
+							<li>サイトは作ったけど管理画面を作るのが面倒</li>
+							<li>社内用に適当な管理画面を作りたいけど、工数をかけたくない</li>
+							<li>管理画面のデザインが面倒</li>
+							<li>今あるスマホアプリやwebサイトの管理画面を新たに作りたい</li>
+							<li>データベース権限をユーザー毎に割り当てて、操作ログも取りたい。</li>
+						</ul>
+	    			</div>
+	    			<div class="col-md-6 col-sm-6 col-xs-12 m-t-40">
+	    				<img src="img/img_state.png" class="img-responsive">
+	    			</div>
+	    		</div>
+	    	</div>
+	    </section>
+	    <section class="m-view hidden-lg hidden-md hidden-sm">
+	    	<div class="container">
+	    		<div class="row">
+	    			<div class="col-xs-12">
+	    				<div class="m-t-80 p-l-30 p-l-0">
+	    					<h2>既存のデータベースから自動生成で、<br> 管理画面の開発工数をほぼ０に。</h2>
+	    					<p>既存のサイトの構成に管理画面だけをくっつける事が可能です。</p>
+	    					<p>例えばLaravel,cakePHP等他のフレームワークでサイトだけ構築している場合で</p>
+	    					<p>も、既存のデータベースに対する管理画面を即座に作成することが可能です。</p>
+	    				</div>
+	    			</div>
+    				<div class="col-xs-12">
+	    				<div class="img-file-box">
+	    					<img src="img/capture.png" class="img-responsive">
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+	    	<div class="bg-sect">
+	    		<div class="container">
+	    			<div class="row">
+	    				<div class="col-xs-12">
+		    				<div class="flow-chart">
+		    					<img src="img/img_flow-sp.png" class="img-responsive">
+		    				</div>
+		    			</div>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </section>
+	    <section class="bg-sect m-b-150 hidden-xs">
+	    	<div class="container">
+	    		<div class="row">
+	    			<div class="sect-one">
+	    				<div class="col-md-5 col-sm-5 col-xs-12">
+		    				<img src="img/capture.png" class="img-responsive">
+		    			</div>
+		    			<div class="col-md-7 col-sm-7 col-xs-12">
+		    				<div class="m-t-80 p-l-30 m-t-20">
+		    					<h2>既存のデータベースから自動生成で、<br> 管理画面の開発工数をほぼ０に。</h2>
+		    					<p>既存のサイトの構成に管理画面だけをくっつける事が可能です。</p>
+		    					<p>例えばLaravel,cakePHP等他のフレームワークでサイトだけ構築している場合で</p>
+		    					<p>も、既存のデータベースに対する管理画面を即座に作成することが可能です。</p>
+		    				</div>
+		    			</div>
+	    			</div>
+	    			<div class="col-xs-12">
+	    				<div class="flow-chart">
+	    					<img src="img/img_flow.png" class="img-responsive">
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </section>
+	    <section class="inner-wrapper p-b-50">
+	    	<div class="container">
+	    		<div class="row">
+	    			<h2 class="text-center">主要な機能</h2>
+	    			<div class="col-md-3 col-sm-3 col-xs-12">
+	    				<div class="img-b">
+	    					<img src="img/icons1.png" class="img-responsive">
+	    					<p>PC、スマホ、タブレットの<br> 各種端末に対応</p>
+	    				</div>
+	    			</div>
+	    			<div class="col-md-3 col-sm-3 col-xs-12">
+	    				<div class="img-b">
+	    					<img src="img/icons2.png" class="img-responsive">
+	    					<p>一覧・編集・詳細画面の<br> 自動生成</p>
+	    				</div>
+	    			</div>
+	    			<div class="col-md-3 col-sm-3 col-xs-12">
+	    				<div class="img-b">
+	    					<img src="img/icons3.png" class="img-responsive">
+	    					<p>リッチな編集画面。<br> バリデーションやリレーションにも対応</p>
+	    				</div>
+	    			</div>
+	    			<div class="col-md-3 col-sm-3 col-xs-12">
+	    				<div class="img-b">
+	    					<img src="img/icons4.png" class="img-responsive">
+	    					<p>データの検索<br> CSVダウンロード<br> アップロード機能</p>
+	    				</div>
+	    			</div>
+	    			<div class="clearfix"></div>
+	    			<div class="col-md-3 col-sm-3 col-xs-12">
+	    				<div class="img-b">
+	    					<img src="img/icons5.png" class="img-responsive">
+	    					<p>メニュー毎、アカウント毎の<br> 権限設定機能</p>
+	    				</div>
+	    			</div>
+	    			<div class="col-md-3 col-sm-3 col-xs-12">
+	    				<div class="img-b">
+	    					<img src="img/icons6.png" class="img-responsive">
+	    					<p>画像のアップロード機能<br> （Amazon S3連携可能）</p>
+	    				</div>
+	    			</div>
+	    			<div class="col-md-3 col-sm-3 col-xs-12">
+	    				<div class="img-b">
+	    					<img src="img/icons7.png" class="img-responsive">
+	    					<p>ログの自動収集</p>
+	    				</div>
+	    			</div>
+	    			<div class="col-md-3 col-sm-3 col-xs-12">
+	    				<div class="img-b m-b-80">
+	    					<img src="img/icons8.png" class="img-responsive">
+	    					<p>hook機能により<br> 高度なカスタマイズも可能</p>
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </section>
+	    <section class="inner-wrapper-bg">
+	    	<div class="container">
+	    		<div class="row">
+	    			<div class="col-md-6 col-sm-6 col-xs-12">
+	    				<div class="p-info">
+	    					<img src="img/icon-globle.png" class="img-responsive">
+	    					<h2 class="title">対応環境</h2>
+	    				</div>
+	    				<ul class="p-info-list">
+	    					<li>Linux(CentOS,Ubuntu,Amazon Linux)</li>
+	    					<li>PHP 5.6+</li>
+	    					<li>MySQL 5.6+</li>
+	    					<li>apache2.x</li>
+	    				</ul>
+	    				<p class="p-txt">上記以外の環境の場合、お問い合わせからご相談下さい</p>
+	    			</div>
+	    			<div class="col-md-6 col-sm-6 col-xs-12">
+	    				<div class="p-info">
+	    					<img src="img/icon-lock.png" class="img-responsive">
+	    					<h2 class="title">セキュリティ</h2>
+	    				</div>
+	    				<div class="p-txt">
+	    					<p>弊社のサーバーやクラウドサーバーではなく、オンプレミス（自社サーバーを用意頂き、そこにインストールする形）でのインストールが可能です</p>
+	    					<p>SSLにも対応済み </p>
+	    					<p>ログ機能により、不正なアクセスや修正も監視可能です。</p>
+	    				</div>
+	    			</div>
+	    			<div class="col-xs-12 text-center m-t-50"><a href="#" class="btn-default-bs2">今すぐトライアル</a></div>
+	    		</div>
+	    	</div>
+	    </section>
+	</div>
+	<!-- end content -->
+	<footer class="footer-sect">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<ul class="footer-list">
+						<li><a href="faq.html">FAQ</a></li>
+	                    <li><a href="news.html">アップデート＆お知らせ</a></li>
+	                    <li><a href="terms.html">利用規約</a></li>
+	                    <li><a href="privacy.html">プライバシーポリシー</a></li>
+						<li><a href="#">会社概要 <i class="fa fa-window-restore"></i></a></li>
+					</ul>
+					<p>Copyright (c) All Rights Reserved.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- end footer -->
+	<p><a href="#0" class="cd-top">Top</a></p>
+	</body>
+	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+</html>
