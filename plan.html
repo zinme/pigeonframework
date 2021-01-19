@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pigeon Framework</title>
+        <link rel="shortcut icon" href="img/favicon.png">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    </head>
+
+<body>
+    <div class="page-wrapper">
+        <!-- header mobile-->
+        <header class="header-mobile d-block d-lg-none">
+            <div class="header-mobile__bar">
+                <div class="container-fluid">
+                    <div class="header-mobile-inner">
+                        <a class="logo" href="index.html">Pigeon Framework</a>
+                        <div class="header-hamburger"><a class="hamburger-menu hamburger-menu--normal" id="hamburger-btn"><span></span><span></span><span></span></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-dropdown-menu" id="dropdown-menu">
+              <nav>
+                <ul>
+                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="index.html">TOP</a></li>
+                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="function.html">機能紹介</a></li>
+                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="project.html">事例</a></li>
+                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="plan.html">プラン</a></li>
+                    <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="support.html">サポート</a></li>
+                </ul>
+                <ul class="menu-list">
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="news.html">アップデート＆お知らせ</a></li>
+                    <li><a href="terms.html">利用規約</a></li>
+                    <li><a href="privacy.html">プライバシーポリシー</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="dropdown-overlay" id="dropdown-overlay"></div>
+        </header>
+        <!-- end header mobile-->
+
+        <!-- menu sidebar-->
+        <aside class="menu-sidebar d-none d-lg-block">
+            <a class="logo" href="index.html">Pigeon Framework</a>
+            <div class="menu-sidebar__content">
+                <nav>
+                    <ul class="menu-sidebar__list">
+                        <li class="header-menu__item"><a class="header-menu__link" href="index.html">TOP</a></li>
+                        <li class="header-menu__item"><a class="header-menu__link" href="function.html">機能紹介</a></li>
+                        <li class="header-menu__item"><a class="header-menu__link" href="project.html">事例</a></li>
+                        <li class="header-menu__item"><a class="header-menu__link" href="plan.html">プラン</a></li>
+                        <li class="header-menu__item"><a class="header-menu__link" href="support.html">サポート</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <!-- end menu sidebar-->
+
+        <!-- page container-->
+        <div class="page-container">
+            <div class="container-fluid">
+                <div class="inner-sect__p80">
+                    <h2 class="text-center">プラン</h2>
+                    <div class="divider"></div>
+                    <div class="row hidden-xs">
+                        <div class="col-sm-12">
+                        <div class="comparison">
+                          <table>
+                            <thead>
+                              <tr>
+                                <th></th>
+                                <th class="compare-row header">
+                                    <div class="plan-head">
+                                        <h6>トライアルプラン</h6>
+                                        <span class="price-num">0</span>
+                                        <span class="suffix">円</span>
+                                        <div class="subtxt">（90日）</div>
+                                        <div class="divider"></div>
+                                    </div>
+                                </th>
+                                <th class="compare-row header second resultcell">
+                                    <div class="plan-head">
+                                        <h6>シンプルプラン</h6>
+                                        <span class="price-num">4,800</span>
+                                        <span class="suffix">円 / 月</span>
+                                        <div class="divider"></div>
+                                    </div>
+                                </th>
+                                <th class="compare-row header">
+                                    <div class="plan-head">
+                                        <h6>アドバンスプラン</h6>
+                                        <span class="price-num">29,800</span>
+                                        <span class="suffix">円</span>
+                                        <div class="divider"></div>
+                                    </div>
+                                </th>
+                              </tr>
+                            </thead>
+                            <tbody class="options">
+                              <tr>
+                                <td class="head-txt">メールによるサポート</td>
+                                <td class="compare-row"><span class="tickgreen"><i class="fa fa-check"></i></span></td>
+                                <td class="compare-row"><span class="tickgreen"><i class="fa fa-check"></i></span></td>
+                                <td class="compare-row"><span class="tickgreen"><i class="fa fa-check"></i></span></td>
+                              </tr>
+                              <tr>
+                                <td class="head-txt">電話によるサポート</td>
+                                <td class="compare-row"><span class="tickgreen"><i class="fa fa-check"></i></span></td>
+                                <td class="compare-row">&nbsp;</td>
+                                <td class="compare-row"><span class="tickgreen"><i class="fa fa-check"></i></span></td>
+                              </tr>
+                              <tr>
+                                <td class="head-txt">基本機能<br><a href="#" class="item-link">基本機能についてはこちら</a></td>
+                                <td class="compare-row"><span class="tickgreen"><i class="fa fa-check"></i></span></td>
+                                <td class="compare-row"><span class="tickgreen"><i class="fa fa-check"></i></span></td>
+                                <td class="compare-row"><span class="tickgreen"><i class="fa fa-check"></i></span></td>
+                              </tr>
+                              <tr>
+                                <td class="head-txt">スマホ対応</td>
+                                <td class="compare-row"><span class="tickgreen"><i class="fa fa-check"></i></span></td>
+                                <td class="compare-row"><span class="tickgreen"><i class="fa fa-check"></i></span></td>
+                                <td class="compare-row"><span class="tickgreen"><i class="fa fa-check"></i></span></td>
+                              </tr>
+                              <tr>
+                                <td class="head-txt">管理者</td>
+                                <td class="compare-row"><span class="tickblue">１名のみ</span></td>
+                                <td class="compare-row"><span class="tickblue">１名のみ</span></td>
+                                <td class="compare-row"><span class="tickblue">１名のみ</span></td>
+                              </tr>
+                              <tr>
+                                <td class="head-txt">ログ機能</td>
+                                <td class="compare-row"><span class="tickgreen"><i class="fa fa-check"></i></span></td>
+                                <td class="compare-row">&nbsp;</td>
+                                <td class="compare-row"><span class="tickgreen"><i class="fa fa-check"></i></span></td>
+                              </tr>
+                              <tr>
+                                <td class="head-txt">データの定期バックアップ</td>
+                                <td class="compare-row">&nbsp;</td>
+                                <td class="compare-row">&nbsp;</td>
+                                <td class="compare-row"><span class="tickgreen"><i class="fa fa-check"></i></span></td>
+                              </tr>
+                              <tr>
+                                <td class="head-txt">詳細</td>
+                                <td class="compare-row"><span class="tickblue">１ヶ月のみ</span></td>
+                                <td class="compare-row"><span class="tickblue ftxt__15">実績に掲載可能な場合のみ。 不可能な場合は39800円/月</span></td>
+                                <td class="compare-row"><span class="tickblue ftxt__15">実績に掲載可能な場合のみ。 不可能な場合は39800円/月</span></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div> <!-- end comparison -->
+                        <p class="ftxt__14 text-right m-t-10">※１年分一括払いのみ。１年更新。</p>
+                        </div>
+                    </div>
+                    <div class="divider clearfix hidden-xs"></div>
+
+                    <div class="row hidden-lg hidden-md hidden-sm">
+                        <div class="col-xs-12">
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                              <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                  <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                      <h6>トライアルプラン</h6>
+                                        <div class="m-b-5">
+                                            <span class="price-num">0</span>
+                                            <span class="suffix">円</span>
+                                        </div>
+                                        <span class="subtxt">（90日）</span>
+                                    </a>
+                                  </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                  <div class="panel-body">
+                                    <div class="divider"></div>
+                                    <div class="m-t-30">
+                                            <div class="col-xs-8">
+                                                <div class="plan-items">
+                                                    <ul class="plan-title">
+                                                        <li>メールによるサポート</li>
+                                                        <li>電話によるサポート</li>
+                                                        <li>基本機能<a href="#" class="item-link">基本機能についてはこちら</a></li>
+                                                        <li>スマホ対応</li>
+                                                        <li>管理者</li>
+                                                        <li>ログ機能</li>
+                                                    </ul>
+                                                    <span class="txtclr">１ヶ月のみ</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <ul class="mark mark-sp">
+                                                    <li><i class="fa fa-check"></i></li>
+                                                    <li><i class="fa fa-check"></i></li>
+                                                    <li><i class="fa fa-check"></i></li>
+                                                    <li><i class="fa fa-check"></i></li>
+                                                    <li>１名のみ</li>
+                                                    <li><i class="fa fa-check"></i></li>
+                                                    <li><span class="bspace">-</span></li>
+                                                </ul>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="panel panel-default panel__active">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                  <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                      <h6>シンプルプラン</h6>
+                                        <div class="num text-left">
+                                            <span class="price-num">4,800</span>
+                                            <span class="suffix">円 / 月</span>
+                                        </div>
+                                    </a>
+                                  </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                  <div class="panel-body">
+                                    <div class="divider"></div>
+                                    <div class="m-t-30">
+                                            <div class="col-xs-8">
+                                                <div class="plan-items">
+                                                    <ul class="plan-title">
+                                                        <li>メールによるサポート</li>
+                                                        <li>基本機能</li>
+                                                        <li>スマホ対応</li>
+                                                        <li>管理者</li>
+                                                    </ul>
+                                                    <span class="ftxt__13 txtclr">実績に掲載可能な場合のみ。 不可能な場合は39800円/月</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <ul class="mark">
+                                                    <li><i class="fa fa-check"></i></li>
+                                                    <li><i class="fa fa-check"></i></li>
+                                                    <li><i class="fa fa-check"></i></li>
+                                                    <li>１名のみ</li>
+                                                </ul>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingThree">
+                                  <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                      <h6>アドバンスプラン</h6>
+                                        <div class="num text-left">
+                                            <span class="price-num">29,800</span>
+                                            <span class="suffix">円</span>
+                                        </div>
+                                    </a>
+                                  </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                  <div class="panel-body">
+                                    <div class="divider"></div>
+                                    <div class="m-t-30">
+                                            <div class="col-xs-8">
+                                                <div class="plan-items">
+                                                    <ul class="plan-title">
+                                                        <li>メールによるサポート</li>
+                                                        <li>電話によるサポート</li>
+                                                        <li>基本機能</li>
+                                                        <li>スマホ対応</li>
+                                                        <li>管理者</li>
+                                                        <li>ログ機能</li>
+                                                    </ul>
+                                                    <span class="ftxt__13 txtclr">実績に掲載可能な場合のみ。 不可能な場合は39800円/月</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <ul class="mark">
+                                                    <li><i class="fa fa-check"></i></li>
+                                                    <li><i class="fa fa-check"></i></li>
+                                                    <li><i class="fa fa-check"></i></li>
+                                                    <li><i class="fa fa-check"></i></li>
+                                                    <li>１名のみ</li>
+                                                    <li><i class="fa fa-check"></i></li>
+                                                </ul>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <p class="ftxt__14 text-right">※１年分一括払いのみ。１年更新。</p>
+                            <div class="divider"></div>
+                        </div>
+                        <div class="col-xs-12">
+                            <h5 class="item-title text-center">オプション</h5>
+                            <div class="option-box">
+                                <div class="col-xs-12">
+                                    <h6>フルインストールプラン</h6>
+                                    <p class="ftxt__14">サーバーへのインストール / apacheの設定 / ドメインの設定 エンジニアがいない方におすすめ</p>
+                                    <div class="m-t-20">
+                                        <span class="opt-price">120,000<span class="sub">円~</span></span>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="option-box">
+                                <div class="col-xs-12">
+                                    <h6 class="m-t-10">サーバーにインストールサービス</h6>
+                                    <span class="opt-price">30,000<span class="sub">円</span></span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="option-box">
+                                <div class="col-xs-12">
+                                    <h6 class="m-t-10">カスタマイズ</h6>
+                                    <span class="opt-price">30,000<span class="sub">円〜</span></span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="text-center m-b-20"><a href="#" class="btn-default-bs2">今すぐトライアル</a></div>
+                        </div>
+                    </div> <!-- end mobile view -->
+
+                    <div class="row hidden-xs">
+                        <h5 class="item-title text-center">オプション</h5>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8 col-sm-12">
+                            <div class="option-box">
+                                <div class="col-md-9 col-sm-9 opt__txtleft">
+                                    <h6>フルインストールプラン</h6>
+                                    <p class="ftxt__14">サーバーへのインストール / apacheの設定 / ドメインの設定 エンジニアがいない方におすすめ</p>
+                                </div>
+                                <div class="col-md-3 col-sm-3 opt__txtright">
+                                    <div class="m-t-20">
+                                        <span class="opt-price">120,000<span class="sub">円~</span></span>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="option-box">
+                                <div class="col-md-9 col-sm-9 opt__txtleft">
+                                    <h6 class="m-t-10">サーバーにインストールサービス</h6>
+                                </div>
+                                <div class="col-md-3 col-sm-3 opt__txtright">
+                                    <span class="opt-price">30,000<span class="sub">円</span></span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="option-box">
+                                <div class="col-md-9 col-sm-9 opt__txtleft">
+                                    <h6 class="m-t-10">カスタマイズ</h6>
+                                </div>
+                                <div class="col-md-3 col-sm-3 opt__txtright">
+                                    <span class="opt-price">30,000<span class="sub">円〜</span></span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-2"></div>
+                        <div class="col-xs-12">
+                            <div class="text-center m-b-20"><a href="#" class="btn-default-bs2">今すぐトライアル</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- end page container-->
+    </div>
+    <!-- end page wrapper -->
+    <footer class="footer-sect footer-tp">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <ul class="footer-list">
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="news.html">アップデート＆お知らせ</a></li>
+                        <li><a href="terms.html">利用規約</a></li>
+                        <li><a href="privacy.html">プライバシーポリシー</a></li>
+                        <li><a href="#">会社概要 <i class="fa fa-window-restore"></i></a></li>
+                    </ul>
+                    <p>Copyright (c) All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <p><a href="#0" class="cd-top">Top</a></p>
+
+    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript">
+         $('.panel-collapse').on('show.bs.collapse', function () {
+            $(this).siblings('.panel-heading').addClass('active');
+          });
+
+          $('.panel-collapse').on('hide.bs.collapse', function () {
+            $(this).siblings('.panel-heading').removeClass('active');
+          });
+    </script>
+</body>
+</html>
